@@ -1,6 +1,5 @@
 # TableVie Diectoy
-<a herf = "https://giphy.com/gifs/V1B5Pz8SXRJ4Zy1o9d/html5"/></a>
-# About the Project
+![edit_students](https://user-images.githubusercontent.com/24483674/94515370-65b46780-01f1-11eb-9ee4-ce21a2df1755.gif)# About the Project
 This Student Directory Project shows the use of :
 ---
 - UIViewController
