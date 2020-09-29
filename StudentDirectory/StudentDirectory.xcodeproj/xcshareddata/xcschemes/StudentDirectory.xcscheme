@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "526147812515051500A42C62"
-               BuildableName = "StudentTableView.app"
-               BlueprintName = "StudentTableView"
-               ReferencedContainer = "container:StudentTableView.xcodeproj">
+               BuildableName = "StudentDirectory.app"
+               BlueprintName = "StudentDirectory"
+               ReferencedContainer = "container:StudentDirectory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "526147812515051500A42C62"
-            BuildableName = "StudentTableView.app"
-            BlueprintName = "StudentTableView"
-            ReferencedContainer = "container:StudentTableView.xcodeproj">
+            BuildableName = "StudentDirectory.app"
+            BlueprintName = "StudentDirectory"
+            ReferencedContainer = "container:StudentDirectory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "526147812515051500A42C62"
-            BuildableName = "StudentTableView.app"
-            BlueprintName = "StudentTableView"
-            ReferencedContainer = "container:StudentTableView.xcodeproj">
+            BuildableName = "StudentDirectory.app"
+            BlueprintName = "StudentDirectory"
+            ReferencedContainer = "container:StudentDirectory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

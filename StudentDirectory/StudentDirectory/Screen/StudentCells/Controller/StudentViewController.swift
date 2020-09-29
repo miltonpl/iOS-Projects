@@ -49,6 +49,32 @@ class StudentViewController: UIViewController {
 }
 
 extension StudentViewController: UITableViewDelegate {
+    /**
+     
+        //Returns the swipe actions to display on the trailing edge of the row.
+        func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+            let uiSwipeActionConfigurationArray =
+                UISwipeActionsConfiguration(actions: [
+    
+                    UIContextualAction(style: .destructive, title: "Delete", handler: { (action, view, closure) in
+                        let section = self.studentSelectionTitle[indexPath.section]
+                        self.studentDictionary[section]?.remove(at: indexPath.row)
+    
+                        if let _ = self.studentDictionary[section]?.isEmpty {
+    
+                            self.studentDictionary.removeValue(forKey: section)
+    
+                            self.studentSelectionTitle.remove(at: indexPath.section)
+                        }
+                        tableView.deleteRows(at: [indexPath], with: .automatic)
+                    })
+    
+                ])
+            uiSwipeActionConfigurationArray.performsFirstActionWithFullSwipe = false
+            return uiSwipeActionConfigurationArray
+        }
+    
+**/
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -104,7 +130,7 @@ extension StudentViewController: UITableViewDataSource {
     }
     
     func setupTableViewProperties() {
-        self.tableView.setEmptyView(title: "Add Students", message: "tap the [+] button on your\nright top conner of the screen")
+        self.tableView.setEmptyView(title: "Add Students To Your Student List", message: "tap the [+] button on your\nright top conner of the screen")
     }
     
 }

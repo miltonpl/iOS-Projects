@@ -21,6 +21,7 @@
 		5261479E2515059000A42C62 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261479D2515059000A42C62 /* DetailViewController.swift */; };
 		526147A2251508F900A42C62 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526147A1251508F900A42C62 /* Student.swift */; };
 		52CC23E5251FB66A002BBBC1 /* TableViewExtenctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC23E4251FB66A002BBBC1 /* TableViewExtenctions.swift */; };
+		52F70BCE25224C1F00DDA4EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F70BCD25224C1F00DDA4EB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,7 @@
 		52605E60251B29D4008A8F70 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		52605E61251B29D4008A8F70 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
 		52605E64251B3085008A8F70 /* EditInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditInfoViewController.swift; sourceTree = "<group>"; };
-		526147822515051500A42C62 /* StudentTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526147822515051500A42C62 /* StudentDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526147852515051500A42C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526147872515051500A42C62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5261478C2515051500A42C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		5261479D2515059000A42C62 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		526147A1251508F900A42C62 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		52CC23E4251FB66A002BBBC1 /* TableViewExtenctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtenctions.swift; sourceTree = "<group>"; };
+		52F70BCD25224C1F00DDA4EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		52605E5B251B2001008A8F70 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				52F70BCD25224C1F00DDA4EB /* Constants.swift */,
 				52605E5C251B2023008A8F70 /* Extensions */,
 			);
 			path = Helpers;
@@ -82,7 +85,7 @@
 		526147792515051500A42C62 = {
 			isa = PBXGroup;
 			children = (
-				526147842515051500A42C62 /* StudentTableView */,
+				526147842515051500A42C62 /* StudentDirectory */,
 				526147832515051500A42C62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,22 +93,21 @@
 		526147832515051500A42C62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				526147822515051500A42C62 /* StudentTableView.app */,
+				526147822515051500A42C62 /* StudentDirectory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		526147842515051500A42C62 /* StudentTableView */ = {
+		526147842515051500A42C62 /* StudentDirectory */ = {
 			isa = PBXGroup;
 			children = (
-				52605E5F251B292B008A8F70 /* Custom Detail View Cell */,
 				52605E5B251B2001008A8F70 /* Helpers */,
 				526147B62516571900A42C62 /* Support Files */,
 				526147B5251656E900A42C62 /* Storyboard */,
 				526147B42516566C00A42C62 /* Screen */,
 				5261478E2515051800A42C62 /* Assets.xcassets */,
 			);
-			path = StudentTableView;
+			path = StudentDirectory;
 			sourceTree = "<group>";
 		};
 		526147B12516561D00A42C62 /* View */ = {
@@ -127,9 +129,7 @@
 		526147B32516565900A42C62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5261479D2515059000A42C62 /* DetailViewController.swift */,
 				526147992515054200A42C62 /* StudentViewController.swift */,
-				52605E64251B3085008A8F70 /* EditInfoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 		526147B42516566C00A42C62 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				526147B12516561D00A42C62 /* View */,
-				526147B22516564E00A42C62 /* Model */,
-				526147B32516565900A42C62 /* Controller */,
+				52F70BD525226A0000DDA4EB /* StudentCells */,
+				52F70BD3252269C200DDA4EB /* StudentDetails */,
+				52F70BD1252268DF00DDA4EB /* EditSudent */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -163,12 +163,63 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
+		52F70BD1252268DF00DDA4EB /* EditSudent */ = {
+			isa = PBXGroup;
+			children = (
+				52F70BD725226AA600DDA4EB /* Screen */,
+				52F70BD22522697400DDA4EB /* Controller */,
+			);
+			path = EditSudent;
+			sourceTree = "<group>";
+		};
+		52F70BD22522697400DDA4EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52605E64251B3085008A8F70 /* EditInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52F70BD3252269C200DDA4EB /* StudentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				52F70BD4252269DC00DDA4EB /* Controller */,
+			);
+			path = StudentDetails;
+			sourceTree = "<group>";
+		};
+		52F70BD4252269DC00DDA4EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5261479D2515059000A42C62 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52F70BD525226A0000DDA4EB /* StudentCells */ = {
+			isa = PBXGroup;
+			children = (
+				526147B22516564E00A42C62 /* Model */,
+				526147B12516561D00A42C62 /* View */,
+				526147B32516565900A42C62 /* Controller */,
+			);
+			path = StudentCells;
+			sourceTree = "<group>";
+		};
+		52F70BD725226AA600DDA4EB /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				52605E5F251B292B008A8F70 /* Custom Detail View Cell */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		526147812515051500A42C62 /* StudentTableView */ = {
+		526147812515051500A42C62 /* StudentDirectory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 526147962515051800A42C62 /* Build configuration list for PBXNativeTarget "StudentTableView" */;
+			buildConfigurationList = 526147962515051800A42C62 /* Build configuration list for PBXNativeTarget "StudentDirectory" */;
 			buildPhases = (
 				5261477E2515051500A42C62 /* Sources */,
 				5261477F2515051500A42C62 /* Frameworks */,
@@ -178,9 +229,9 @@
 			);
 			dependencies = (
 			);
-			name = StudentTableView;
+			name = StudentDirectory;
 			productName = StudentTableView;
-			productReference = 526147822515051500A42C62 /* StudentTableView.app */;
+			productReference = 526147822515051500A42C62 /* StudentDirectory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5261477D2515051500A42C62 /* Build configuration list for PBXProject "StudentTableView" */;
+			buildConfigurationList = 5261477D2515051500A42C62 /* Build configuration list for PBXProject "StudentDirectory" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,7 +262,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				526147812515051500A42C62 /* StudentTableView */,
+				526147812515051500A42C62 /* StudentDirectory */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52605E62251B29D4008A8F70 /* DetailTableViewCell.swift in Sources */,
+				52F70BCE25224C1F00DDA4EB /* Constants.swift in Sources */,
 				52605E5E251B2061008A8F70 /* StringExtensions.swift in Sources */,
 				5261479A2515054200A42C62 /* StudentViewController.swift in Sources */,
 				526147862515051500A42C62 /* AppDelegate.swift in Sources */,
@@ -390,13 +442,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWYBXAANR7;
-				INFOPLIST_FILE = "StudentTableView/Support Files/Info.plist";
+				INFOPLIST_FILE = "StudentDirectory/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MiltonPalaguachi.StudentTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MiltonPalaguachi.StudentDirectory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -409,13 +461,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWYBXAANR7;
-				INFOPLIST_FILE = "StudentTableView/Support Files/Info.plist";
+				INFOPLIST_FILE = "StudentDirectory/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MiltonPalaguachi.StudentTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MiltonPalaguachi.StudentDirectory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -425,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5261477D2515051500A42C62 /* Build configuration list for PBXProject "StudentTableView" */ = {
+		5261477D2515051500A42C62 /* Build configuration list for PBXProject "StudentDirectory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				526147942515051800A42C62 /* Debug */,
@@ -434,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		526147962515051800A42C62 /* Build configuration list for PBXNativeTarget "StudentTableView" */ = {
+		526147962515051800A42C62 /* Build configuration list for PBXNativeTarget "StudentDirectory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				526147972515051800A42C62 /* Debug */,

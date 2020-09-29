@@ -48,16 +48,16 @@ extension DetailTableViewCell: UITextFieldDelegate {
         switch dataNameLabel.text {
         case "First Name", "Last Name":
             if !updatedText.isValidName { self.textField.textColor = .red }
-            count = updatedText.count <= 25
+            count = updatedText.count <= Constant.maxNameCharacters
             break
         case "Number":
             if !updatedText.isPhoneNumber { return false }
-            if updatedText.count < 9 { self.textField.textColor = .red }
-            count = updatedText.count <= 12
+            if updatedText.count <= Constant.minNumberCharacters { self.textField.textColor = .red }
+            count = updatedText.count <= Constant.maxNumberCharacters
             break
         case "Email":
             if !updatedText.isValidEmail { self.textField.textColor = .red }
-            count = updatedText.count <= 65
+            count = updatedText.count <= Constant.maxEmailCharacters
             break
         default:
             break
