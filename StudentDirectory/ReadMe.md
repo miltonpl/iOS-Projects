@@ -1,5 +1,9 @@
 # TableView Directory
-![edit_students](https://user-images.githubusercontent.com/24483674/94515370-65b46780-01f1-11eb-9ee4-ce21a2df1755.gif)# About the Project
+---
+## About the Project
+---
+![edit_students](https://user-images.githubusercontent.com/24483674/94515370-65b46780-01f1-11eb-9ee4-ce21a2df1755.gif)
+
 
 
 
