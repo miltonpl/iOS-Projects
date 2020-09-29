@@ -22,6 +22,7 @@
 		526147A2251508F900A42C62 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526147A1251508F900A42C62 /* Student.swift */; };
 		52CC23E5251FB66A002BBBC1 /* TableViewExtenctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC23E4251FB66A002BBBC1 /* TableViewExtenctions.swift */; };
 		52F70BCE25224C1F00DDA4EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F70BCD25224C1F00DDA4EB /* Constants.swift */; };
+		52F70BEA2522E22D00DDA4EB /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F70BE92522E22D00DDA4EB /* Info.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		526147A1251508F900A42C62 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		52CC23E4251FB66A002BBBC1 /* TableViewExtenctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtenctions.swift; sourceTree = "<group>"; };
 		52F70BCD25224C1F00DDA4EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52F70BE92522E22D00DDA4EB /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,7 @@
 				52605E5B251B2001008A8F70 /* Helpers */,
 				526147B62516571900A42C62 /* Support Files */,
 				526147B5251656E900A42C62 /* Storyboard */,
-				526147B42516566C00A42C62 /* Screen */,
+				526147B42516566C00A42C62 /* Screens */,
 				5261478E2515051800A42C62 /* Assets.xcassets */,
 			);
 			path = StudentDirectory;
@@ -134,14 +136,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		526147B42516566C00A42C62 /* Screen */ = {
+		526147B42516566C00A42C62 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				52F70BD525226A0000DDA4EB /* StudentCells */,
 				52F70BD3252269C200DDA4EB /* StudentDetails */,
 				52F70BD1252268DF00DDA4EB /* EditSudent */,
 			);
-			path = Screen;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		526147B5251656E900A42C62 /* Storyboard */ = {
@@ -166,7 +168,8 @@
 		52F70BD1252268DF00DDA4EB /* EditSudent */ = {
 			isa = PBXGroup;
 			children = (
-				52F70BD725226AA600DDA4EB /* Screen */,
+				52F70BE82522E21300DDA4EB /* Model */,
+				52F70BD725226AA600DDA4EB /* View */,
 				52F70BD22522697400DDA4EB /* Controller */,
 			);
 			path = EditSudent;
@@ -206,12 +209,20 @@
 			path = StudentCells;
 			sourceTree = "<group>";
 		};
-		52F70BD725226AA600DDA4EB /* Screen */ = {
+		52F70BD725226AA600DDA4EB /* View */ = {
 			isa = PBXGroup;
 			children = (
 				52605E5F251B292B008A8F70 /* Custom Detail View Cell */,
 			);
-			path = Screen;
+			path = View;
+			sourceTree = "<group>";
+		};
+		52F70BE82522E21300DDA4EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52F70BE92522E22D00DDA4EB /* Info.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 				526147882515051500A42C62 /* SceneDelegate.swift in Sources */,
 				526147A2251508F900A42C62 /* Student.swift in Sources */,
 				52605E65251B3085008A8F70 /* EditInfoViewController.swift in Sources */,
+				52F70BEA2522E22D00DDA4EB /* Info.swift in Sources */,
 				52CC23E5251FB66A002BBBC1 /* TableViewExtenctions.swift in Sources */,
 				5261479C2515056900A42C62 /* StudentTableViewCell.swift in Sources */,
 			);

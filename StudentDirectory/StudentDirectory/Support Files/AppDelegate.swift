@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  StudentTableView
+//  StudentDirectory
 //
 //  Created by Milton Palaguachi on 9/18/20.
 //  Copyright © 2020 Milton. All rights reserved.

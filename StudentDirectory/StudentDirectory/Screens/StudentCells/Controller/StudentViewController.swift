@@ -1,6 +1,6 @@
 //
 //  StudentViewController.swift
-//  StudentTableView
+//  StudentDirectory
 //
 //  Created by Milton Palaguachi on 9/18/20.
 //  Copyright © 2020 Milton. All rights reserved.
@@ -9,19 +9,17 @@ import Foundation
 import UIKit
 
 class StudentViewController: UIViewController {
-    @IBOutlet weak var tableView:UITableView! {
+    @IBOutlet private weak var tableView:UITableView! {
         didSet {
             tableView.tableFooterView = UIView()
         }
     }
-    var studentDictionary = [String: [Student]]()
-    {
+    private var studentDictionary = [String: [Student]]() {
         didSet {
             self.tableView.reloadData()
         }
     }
-    var studentSelectionTitle = [String]()
-    {
+    private var studentSelectionTitle = [String]() {
         didSet {
             self.tableView.reloadData()
         }

@@ -1,6 +1,6 @@
 //
 //  DetailTableViewCell.swift
-//  StudentTableView
+//  StudentDirectory
 //
 //  Created by Milton Palaguachi on 9/23/20.
 //  Copyright © 2020 Milton. All rights reserved.
@@ -14,7 +14,7 @@ protocol DetailTableViewCellDelagation: class {
 
 class DetailTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var dataNameLabel: UILabel!
+    @IBOutlet private weak var dataNameLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     static let identifier = "DetailTableViewCell"
     weak var delegation:DetailTableViewCellDelagation?

@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  StudentTableView
+//  StudentDirectory
 //
 //  Created by Milton Palaguachi on 9/18/20.
 //  Copyright © 2020 Milton. All rights reserved.
@@ -12,11 +12,11 @@ import MessageUI
 class DetailViewController: UIViewController {
     
     weak var updateDelegate: UpdateDelegate?
-    @IBOutlet weak var backgroundImageView: UIImageView!
-    @IBOutlet weak var studentImageView: UIImageView!
-    @IBOutlet weak var fullNameLabel: UILabel!
-    @IBOutlet weak var numberLabel: UILabel!
-    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet private weak var backgroundImageView: UIImageView!
+    @IBOutlet private weak var studentImageView: UIImageView!
+    @IBOutlet private weak var fullNameLabel: UILabel!
+    @IBOutlet private weak var numberLabel: UILabel!
+    @IBOutlet private weak var emailLabel: UILabel!
     var studentDetails: Student?
 
     override func viewDidLoad() {

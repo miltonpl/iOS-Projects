@@ -1,19 +1,12 @@
 //
 //  EditInfoViewController.swift
-//  StudentTableView
+//  StudentDirectory
 //
 //  Created by Milton Palaguachi on 9/23/20.
 //  Copyright © 2020 Milton. All rights reserved.
 //
 
 import UIKit
-
-enum Info: String {
-    case email = "Email"
-    case phone = "Number"
-    case lastName = "Last Name"
-    case firstName = "First Name"
-}
 protocol EditViewControllerDelegate: AnyObject {
     func addNewStudent( student: Student)
 }
