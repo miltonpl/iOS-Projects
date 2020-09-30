@@ -4,8 +4,6 @@
 * Sample 1
 
 ![sample1](https://user-images.githubusercontent.com/24483674/94649032-ce6b1500-02c1-11eb-8d62-77a108d6a1cf.gif)
-* Sample 2
----
 ![sample2](https://user-images.githubusercontent.com/24483674/94649145-0c683900-02c2-11eb-8836-e8cb69eb2851.gif)
 
 ---
