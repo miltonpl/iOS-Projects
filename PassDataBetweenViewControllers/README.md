@@ -1,5 +1,8 @@
 
-##About the Project
+## About the Project
+---
+![sample1](https://user-images.githubusercontent.com/24483674/94649032-ce6b1500-02c1-11eb-8d62-77a108d6a1cf.gif)
+* Sample 2
 
 ---
 - UIViewController
