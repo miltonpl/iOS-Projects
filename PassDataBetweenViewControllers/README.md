@@ -1,8 +1,6 @@
 
 ## About the Project
 ---
-![sample1](https://user-images.githubusercontent.com/24483674/94708310-78728d80-0312-11eb-86bb-a4cfa04a61ff.gif)
-
 ## Demo
 
 
