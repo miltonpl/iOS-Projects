@@ -8,9 +8,9 @@
 ![editInfo](https://media.giphy.com/media/kzIRUh7DSqbByRfIlh/giphy.gif)
 
 <p float= "center"
-<img width= "300" height="600" alt="" src=add_creen "https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/add_screen.png"/>
-<img width= "300" height="600" alt="" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/detail_screen.png"/>
-<img width= "300" height="600" alt="" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/welcome_screen.png"/>
+<img width= "300" height="600" alt="add" src= "https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/add_screen.png"/>
+<img width= "300" height="600" alt="detail" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/detail_screen.png"/>
+<img width= "300" height="600" alt="edit" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/welcome_screen.png"/>
 
 ##This Student Directory Project shows the use of :
 ---
