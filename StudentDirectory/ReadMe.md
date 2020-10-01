@@ -8,10 +8,10 @@
 ![editInfo](https://media.giphy.com/media/kzIRUh7DSqbByRfIlh/giphy.gif)
 
 <p float= "center">
-<img width= "300" height="600" alt="add" src= "https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/welcome_screen.png"/>
-<img width= "300" height="600" alt="detail" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/add_screen.png"/>
-<img width= "300" height="600" alt="edit" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/detail_screen.png"/>
-<img width= "300" height="600" alt="edit" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/edit_screen.png"/>
+<img width= "250" height="500" alt="add" src= "https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/welcome_screen.png"/>
+<img width= "250" height="500" alt="detail" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/add_screen.png"/>
+<img width= "250" height="500" alt="edit" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/detail_screen.png"/>
+<img width= "250" height="500" alt="edit" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/edit_screen.png"/>
 </p>
 
 ##This Student Directory Project shows the use of :
