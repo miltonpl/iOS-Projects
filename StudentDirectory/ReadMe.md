@@ -2,12 +2,10 @@
 ---
 ## About the Project
 ---
+
 ![edit_students](https://user-images.githubusercontent.com/24483674/94515370-65b46780-01f1-11eb-9ee4-ce21a2df1755.gif)
-
-
-
 ![Validation](https://media.giphy.com/media/xOhA6ar4k6T9qc7YkM/giphy.gif)
-
+![editInfo](https://media.giphy.com/media/kzIRUh7DSqbByRfIlh/giphy.gif)
 
 
 ##This Student Directory Project shows the use of :
