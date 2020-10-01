@@ -7,6 +7,10 @@
 ![Validation](https://media.giphy.com/media/xOhA6ar4k6T9qc7YkM/giphy.gif)
 ![editInfo](https://media.giphy.com/media/kzIRUh7DSqbByRfIlh/giphy.gif)
 
+<p float= "center"
+<img width= "300" height="600" alt="" src=add_creen "https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/add_screen.png"/>
+<img width= "300" height="600" alt="" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/detail_screen.png"/>
+<img width= "300" height="600" alt="" src="https://github.com/miltonpl/iOS-Projects/blob/master/StudentDirectory/Images/welcome_screen.png"/>
 
 ##This Student Directory Project shows the use of :
 ---
