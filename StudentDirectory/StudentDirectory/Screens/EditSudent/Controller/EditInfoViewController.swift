@@ -224,8 +224,7 @@ class EditInfoViewController: UIViewController {
     //MARK: - Move Keyword Method
     @objc func keyboardWillHide(notification: Notification) {
         self.editTableView.contentOffset = .zero
-        //        self.activeTextField = nil
-        
+                self.activeTextField = nil
     }
     @objc func keyboardWillShow(notification: Notification) {
         
@@ -248,8 +247,8 @@ class EditInfoViewController: UIViewController {
     
     deinit {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
 }
 
