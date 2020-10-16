@@ -20,6 +20,7 @@ class DetailViewController: UIViewController {
     var studentDetails: Student?
 
     override func viewDidLoad() {
+        self.title = "Student's Details"
         super.viewDidLoad()
         self.navigationController?.navigationBar.tintColor = .systemGreen
         setupUI()
@@ -30,9 +31,7 @@ class DetailViewController: UIViewController {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
        guard let editVC = storyboard.instantiateViewController(withIdentifier: "EditInfoViewController") as? EditInfoViewController else { return }
-        
         editVC.student = studentDetails
-        
         editVC.delegationUpdateStudent = self.updateDelegate
         editVC.delegation = self
         
@@ -93,7 +92,6 @@ extension DetailViewController: EditViewControllerDelegate {
         configure()
     }
 }
-
 extension DetailViewController: MFMailComposeViewControllerDelegate {
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         controller.dismiss(animated: true, completion: nil)
@@ -103,6 +101,5 @@ extension DetailViewController: MFMessageComposeViewControllerDelegate,  UINavig
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         controller.dismiss(animated: true, completion: nil)
     }
-    
 }
 
